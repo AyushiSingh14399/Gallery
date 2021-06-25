@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(168, 101, 157, 0.295);
+    color: #8e2d86;;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.headerSearchInput {
+    position: relative;
+    flex: 0.5;
+    margin-left: 1vw;
+}
+
+li {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.searchButton {
+    border-color: pink;
+    border-radius: 18px;
+    padding: 5px;
+    margin-left: 3vw;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+}
